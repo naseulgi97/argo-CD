@@ -10,12 +10,12 @@ spec:
     matchLabels: 
       app: hello-world 
   template: 
-    metadata:
+    metadata: 
       labels: 
         app: hello-world 
-  spec: 
-    containers: 
-    - name: hello-world 
-      image: naseul3/test
-      ports: 
-      - containerPort: 8080
+    spec: 
+      containers: 
+      - name: hello-world 
+        image: naseul3/test 
+        ports:
+        - containerPort: 8080
