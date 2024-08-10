@@ -63,7 +63,7 @@ spec:
       steps { 
         container('kaniko') { 
           sh 'executor --dockerfile=Dockerfile --context=dir:///home/jenkins/agent/workspace/kube_pipeline/ --destination=
- <IMAGE>:$BUILD_NUMBER --destination=<IMAGE>:latest'
+ naseul3/test:$BUILD_NUMBER --destination=naseul3/test:latest'
         }
       }  
     } 
